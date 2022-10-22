@@ -343,24 +343,24 @@ main {
 .box-sales-1__buttom-1 a {
   display: block;
   padding: 12.25px 63.5px;
-  border: 1px solid #ffffff;
   border-radius: 10px;
   margin-top: 75px;
   transition: 0.5s;
+  background: #43CDD7;
 }
 .box-sales-1__buttom-1 a:hover {
-  background: #43CDD7;
+  background: #1A8289;
 }
 .box-sales-1__buttom-2 a {
   display: block;
   padding: 12.25px 56px 9px;
-  border: 1px solid #ffffff;
   border-radius: 10px;
   margin-top: 16px;
   transition: 0.5s;
+  background: #43CDD7;
 }
 .box-sales-1__buttom-2 a:hover {
-  background: #43CDD7;
+  background: #1A8289;
 }
 .box-sales-1__right {
   width: 337px;
@@ -402,9 +402,9 @@ main {
   color: #7E7099;
   transition: 0.5s;
 }
-.sales-2__name:hover {
-  background: #43CDD7;
-  color: #FFFFFF;
+.sales-2__name:focus {
+  outline: 2px solid #43CDD7;
+  color: #000000;
 }
 .sales-2__phone-number {
   padding: 14px 15px;
@@ -416,23 +416,24 @@ main {
   color: #7E7099;
   transition: 0.5s;
 }
-.sales-2__phone-number:hover {
-  background: #43CDD7;
-  color: #FFFFFF;
+.sales-2__phone-number:focus {
+  outline: 2px solid #43CDD7;
+  color: #000000;
 }
 .sales-2__button {
   padding: 16px 24px;
-  background: #F6EEFD;
+  background: #FFFFFF;
   border-radius: 10px;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
-  color: #7E7099;
+  color: #5531D2;
+  border: 2px solid #5531D2;
   transition: 0.5s;
 }
 .sales-2__button:hover {
-  background: #43CDD7;
+  background: #5531D2;
   color: #FFFFFF;
 }
 .sales-2__consent {
