@@ -483,6 +483,15 @@ main {
   background: rgb(85, 49, 210);
 }
 
+@media (max-width: 864px) {
+  .sales-2__form form {
+    flex-wrap: wrap;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+  }
+}
 @media (max-width: 767px) {
   .box-sales-1__right {
     display: flex;
@@ -512,9 +521,8 @@ main {
     padding: 12.25px;
     text-align: center;
   }
-}
-@media (max-width: 375px) and (max-width: 828px) {
-  .sales-2__form form {
-    flex-direction: column;
+  .sales-2__name,
+.sales-2__phone-number {
+    padding: auto;
   }
 }
