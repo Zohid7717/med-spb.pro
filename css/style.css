@@ -438,26 +438,44 @@ header {
   */
 .service-menu li {
   position: relative;
+  list-style: none;
+  z-index: 10;
+}
+.service-menu li:hover > .service-submenu__list {
+  display: block;
+}
+.service-menu li:hover > .service-menu__link::after {
+  transform: rotate(45deg);
 }
 .service-menu__list {
   display: flex;
   justify-content: space-between;
-  border: 1px solid;
-}
-.service-menu__list li:hover .service-submenu__list {
-  display: block;
 }
 .service-menu__link {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 140%;
   color: #FFFFFF;
+  padding-right: 10px;
+}
+.service-menu__link::after {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: rotate(135deg);
+  position: relative;
+  top: -2px;
+  left: 6px;
+  transition: 0.5s;
 }
 
 .service-submenu__list {
   position: absolute;
+  top: 20px;
   left: 0;
-  top: 10px;
-  background: #fff;
+  background-color: #FFFFFF;
   display: none;
+}
+.service-submenu__link {
+  color: #000;
 }
