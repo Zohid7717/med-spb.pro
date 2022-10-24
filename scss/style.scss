@@ -470,6 +470,8 @@ header {
     }
 
     &:hover>.service-submenu__list {
+      opacity: 1;
+      top: 30px;
       display: block;
     }
 
@@ -480,7 +482,8 @@ header {
     }
 
     &:hover>.service-menu__link::before {
-      display: inline-block;
+      top: 110%;
+      opacity: 1;
     }
   }
 
@@ -515,7 +518,7 @@ header {
     font-size: 16px;
     line-height: 140%;
     color: #FFFFFF;
-    padding: 5px 10px 5px 0px;
+    padding: 5px 10px 15px 0px;
 
   }
 
@@ -536,14 +539,15 @@ header {
 
     &::before {
       content: '';
-      display: none;
       width: 10px;
       height: 10px;
       background-color: #FFFFFF;
       transform: rotate(135deg);
       position: absolute;
-      top: 110%;
+      top: -1100%;
       left: 50%;
+      opacity: 0;
+      transition: 0.4s opacity;
     }
   }
 
@@ -557,14 +561,15 @@ header {
 
   &__list {
     position: absolute;
-    top: 20px;
+    top: 2000px;
     left: -30px;
     background-color: #FFFFFF;
     display: inline-block;
     width: 300px;
     padding: 20px;
-    display: none;
     border-radius: 10px;
+    opacity: 0;
+    transition: 0.5s opacity;
   }
 
   &__link {
