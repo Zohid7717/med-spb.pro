@@ -20,7 +20,8 @@
 @media (max-width:1120px) {
 
   .header__container,
-  .main__container {
+  .main__container,
+  .footer__main {
     padding: 0px 20px 0px 20px;
   }
 }
@@ -606,6 +607,7 @@ header {
 }
 
 @media (max-width: 700px) {
+
   .service-menu__burger {
     display: block;
   }
@@ -623,14 +625,16 @@ header {
     padding: 10px 0px;
   }
 
-  .service-submenu__list {
-    top: 0;
+  .service-menu li:hover>.service-submenu__list {
+    opacity: 1;
+    top: 0px;
     left: 110%;
+    display: block;
   }
 
-  .service-menu__link::before {
-    top: 32%;
-    left: 106.5%;
+  .service-menu li:hover>.service-menu__link::before {
+    top: 40%;
+    left: 108%;
   }
 
   .service-menu__burger-link.active::after {
@@ -645,17 +649,21 @@ header {
 }
 
 @media (max-width: 512px) {
-  .service-submenu__list {
+  .service-menu li:hover>.service-submenu__list {
     position: relative;
     top: 15px;
     left: 0;
     margin-bottom: 20px;
   }
 
-  .service-menu__link::before {
-    top: 35px;
+  .service-menu li:hover>.service-menu__link::before {
+    top: 42px;
     left: 25%;
   }
+
+  .service-submenu__list {}
+
+  .service-menu__link::before {}
 
   .service-menu__item {
     margin-top: 15px;
