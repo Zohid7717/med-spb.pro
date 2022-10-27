@@ -1,0 +1,51 @@
+@import "_nullstyle";
+/*Обнуляющий стиль убрали в другой файл и подключилиего с помощю этой сылки*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/*
+!-----------------faq---------------------!
+*/
+
+.pages-way {
+  padding: 19.87px 0 19.87px 0;
+  display: flex;
+
+  &__1 {
+    margin-right: 4px;
+
+    & a {
+      font-family: 'Roboto';
+      font-weight: 400;
+      font-size: 14px;
+      align-items: center;
+      color: #200F3F;
+    }
+
+    & img {
+      margin-right: 3.31px;
+    }
+  }
+
+  &__2 {
+    & a {
+      font-family: 'Roboto';
+      font-weight: 400;
+      font-size: 14px;
+      color: #7E7099;
+
+      &::before {
+        content: '';
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+        background-color: #5531D2;
+        align-items: center;
+        border-radius: 50%;
+        margin-right: 4px;
+        position: relative;
+        top: -2px;
+        z-index: -1;
+      }
+    }
+  }
+}

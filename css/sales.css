@@ -77,66 +77,6 @@ h1, h2, h3, h4, h5, h6 {
 /*
 !-----------------sales---------------------!
 */
-.u-body {
-  margin: 0 auto;
-  position: relative;
-  z-index: 6;
-  overflow: hidden;
-}
-.u-body__img-1 {
-  z-index: 7;
-  position: absolute;
-  width: 365px;
-  height: 365px;
-  left: -30px;
-  top: 1083px;
-  background: #5531D2;
-  opacity: 0.1;
-  border-radius: 50%;
-}
-.u-body__img-2 {
-  box-sizing: border-box;
-  position: absolute;
-  width: 254.2px;
-  height: 70px;
-  right: -114px;
-  top: 470.79px;
-  border: 4px solid #9E00FF;
-  border-radius: 20px;
-  transform: rotate(-15deg);
-}
-.u-body__img-3 {
-  box-sizing: border-box;
-  position: absolute;
-  width: 252.83px;
-  height: 70px;
-  right: 100px;
-  top: 700.19px;
-  border: 4px solid #43CDD7;
-  border-radius: 20px;
-  transform: rotate(-15deg);
-}
-.u-body__img-4 {
-  position: absolute;
-  width: 306.25px;
-  height: 70px;
-  right: -153.6px;
-  top: 787.46px;
-  background: #5531D2;
-  border-radius: 20px;
-  transform: rotate(-15deg);
-}
-.u-body__img-5 {
-  position: absolute;
-  width: 563px;
-  height: 563px;
-  right: -229px;
-  top: 1318px;
-  background: #C5A6FD;
-  opacity: 0.3;
-  border-radius: 50%;
-}
-
 .u-container {
   margin: 0 auto;
 }
@@ -368,88 +308,6 @@ main {
   margin-right: 78px;
 }
 
-.sales-2 {
-  position: relative;
-  z-index: 11;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 20px rgba(43, 17, 133, 0.2);
-  border-radius: 20px;
-  margin-top: 100px;
-  text-align: center;
-  padding: 48px;
-}
-.sales-2__title {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 120%;
-  color: #000000;
-}
-.sales-2__form {
-  margin-top: 24px;
-}
-.sales-2__form form {
-  display: flex;
-  justify-content: space-between;
-}
-.sales-2__name {
-  padding: 14px 15px;
-  background: #F6EEFD;
-  border-radius: 10px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 140%;
-  color: #7E7099;
-  transition: 0.5s;
-}
-.sales-2__name:focus {
-  outline: 2px solid #43CDD7;
-  color: #000000;
-}
-.sales-2__phone-number {
-  padding: 14px 15px;
-  background: #F6EEFD;
-  border-radius: 10px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 140%;
-  color: #7E7099;
-  transition: 0.5s;
-}
-.sales-2__phone-number:focus {
-  outline: 2px solid #43CDD7;
-  color: #000000;
-}
-.sales-2__button {
-  padding: 16px 24px;
-  background: #FFFFFF;
-  border-radius: 10px;
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 140%;
-  color: #5531D2;
-  border: 2px solid #5531D2;
-  transition: 0.5s;
-}
-.sales-2__button:hover {
-  background: #5531D2;
-  color: #FFFFFF;
-}
-.sales-2__consent {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 140%;
-  color: #200F3F;
-  margin-top: 16px;
-}
-.sales-2__span-1 {
-  font-weight: 700;
-}
-.sales-2__span-2 {
-  text-decoration: underline;
-}
-
 @media (min-width: 1120px) {
   .sales-2__name {
     width: 320px;
@@ -464,25 +322,6 @@ main {
     height: 58px;
   }
 }
-.m-content__contact {
-  display: flex;
-  justify-content: center;
-  margin-top: 19px;
-  -moz-column-gap: 14px;
-       column-gap: 14px;
-}
-.m-contacts__img {
-  display: flex;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  transition: 0.5s;
-}
-.m-contacts__img:hover {
-  box-shadow: 0px 0px 10px 5px rgb(85, 49, 210);
-  background: rgb(85, 49, 210);
-}
-
 @media (max-width: 864px) {
   .sales-2__form form {
     flex-wrap: wrap;

@@ -110,10 +110,117 @@ footer {
   left: 0;
 }
 .footer__body {
-  padding-top: 258px;
+  padding-top: 278px;
   position: relative;
   z-index: 15;
+  overflow: hidden;
 }
+.sales-2 {
+  position: relative;
+  z-index: 11;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(43, 17, 133, 0.2);
+  border-radius: 20px;
+  margin-top: 100px;
+  text-align: center;
+  padding: 48px;
+}
+.sales-2__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #000000;
+}
+.sales-2__form {
+  margin-top: 24px;
+}
+.sales-2__form form {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+.sales-2__name {
+  padding: 14px 15px;
+  background: #F6EEFD;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #7E7099;
+  transition: 0.5s;
+  width: 100%;
+}
+.sales-2__name:focus {
+  outline: 2px solid #43CDD7;
+  color: #000000;
+}
+.sales-2__phone-number {
+  padding: 14px 15px;
+  background: #F6EEFD;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #7E7099;
+  transition: 0.5s;
+  width: 100%;
+}
+.sales-2__phone-number:focus {
+  outline: 2px solid #43CDD7;
+  color: #000000;
+}
+.sales-2__button {
+  padding: 16px 24px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #5531D2;
+  border: 2px solid #5531D2;
+  transition: 0.5s;
+  width: 100%;
+}
+.sales-2__button:hover {
+  background: #5531D2;
+  color: #FFFFFF;
+}
+.sales-2__consent {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #200F3F;
+  margin-top: 16px;
+}
+.sales-2__span-1 {
+  font-weight: 700;
+}
+.sales-2__span-2 {
+  text-decoration: underline;
+}
+
+.m-content__contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 19px;
+  -moz-column-gap: 14px;
+       column-gap: 14px;
+}
+.m-contacts__img {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.m-contacts__img:hover {
+  box-shadow: 0px 0px 10px 5px rgb(85, 49, 210);
+  background: rgb(85, 49, 210);
+}
+
 .f-main {
   display: flex;
   justify-content: space-between;
@@ -304,7 +411,7 @@ footer {
 }
 
 .footer__low {
-  margin: 14.38px;
+  margin: 14.38px 14.38px 0 14.38px;
   font-weight: 400;
   font-size: 12px;
   line-height: 140%;
