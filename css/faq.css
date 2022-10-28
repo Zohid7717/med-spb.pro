@@ -113,3 +113,38 @@ h1, h2, h3, h4, h5, h6 {
   top: -2px;
   z-index: -1;
 }
+
+/*
+!----------------------faq-dropdown--------------------!
+*/
+.m-content {
+  max-width: 736px;
+  margin: 44px auto 0px;
+}
+.m-content__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 130%;
+  text-align: center;
+  color: #200F3F;
+}
+.faq-dropdown__button {
+  width: 100%;
+  background: #C5A6FD;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+  text-align: left;
+  padding: 16px 46.35px 16px 16px;
+  border-radius: 10px 10px 0 0;
+}
+.faq-dropdown__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #200F3F;
+  background: #FFFFFF;
+  padding: 16px 16px 32px 16px;
+}

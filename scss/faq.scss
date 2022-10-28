@@ -49,3 +49,50 @@
     }
   }
 }
+
+/*
+!----------------------faq-dropdown--------------------!
+*/
+.main-content {}
+
+.m-content {
+  max-width: 736px;
+  margin: 44px auto 0px;
+
+  &__title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 130%;
+    text-align: center;
+    color: #200F3F;
+  }
+
+  &__dropdown {}
+}
+
+.faq-dropdown {
+
+  &__container {}
+
+  &__button {
+    width: 100%;
+    background: #C5A6FD;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 16px 46.35px 16px 16px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #200F3F;
+    background: #FFFFFF;
+    padding: 16px 16px 32px 16px;
+  }
+}
