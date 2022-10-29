@@ -165,7 +165,9 @@ footer {
 
   &:hover {
     box-shadow: 0px 0px 10px 5px rgba(85, 49, 210);
-    background: rgba(85, 49, 210]
+    background: rgba(85, 49, 210)
+  }
+}
 
 .u-container {}
 
@@ -508,8 +510,6 @@ footer {
       max-width: 358px;
     }
   }
-
-
 }
 
 @media (max-width: 980px) {
@@ -536,5 +536,39 @@ footer {
 @media (max-width: 420px) {
   .f-main {
     flex-direction: column;
+  }
+}
+
+@media (min-width:1120px) {
+  .sales-2__name {
+    width: 320px;
+    height: 58px;
+  }
+
+  .sales-2__phone-number {
+    width: 320px;
+    height: 58px;
+  }
+
+  .sales-2__button {
+    width: 320px;
+    height: 58px;
+  }
+}
+
+@media (max-width: 864px) {
+  .sales-2__form form {
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 375px) {
+
+  .sales-2__name,
+  .sales-2__phone-number {
+    padding: auto;
   }
 }
