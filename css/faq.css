@@ -129,22 +129,78 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #200F3F;
 }
+.faq-dropdown {
+  margin-top: 56px;
+}
+.faq-dropdown__container {
+  position: relative;
+  margin-bottom: 16px;
+}
 .faq-dropdown__button {
   width: 100%;
-  background: #C5A6FD;
+  background: #FFFFFF;
   font-weight: 500;
   font-size: 18px;
   line-height: 140%;
-  color: #FFFFFF;
+  color: #200F3F;
   text-align: left;
-  padding: 16px 46.35px 16px 16px;
-  border-radius: 10px 10px 0 0;
+  padding: 16px 16px 16px 16px;
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 2px 10px rgba(43, 17, 133, 0.1);
+  transition: 0.3s;
+}
+.faq-dropdown__button:hover > .faq-dropdown__button-icon::after {
+  background: #FFFFFF;
+}
+.faq-dropdown__button:hover > .faq-dropdown__button-icon::before {
+  background: #FFFFFF;
+}
+.faq-dropdown__button:hover {
+  background: #C5A6FD;
+  color: #FFFFFF;
+}
+.faq-dropdown__button-icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  position: relative;
+  pointer-events: none;
+}
+.faq-dropdown__button-icon::after {
+  content: "";
+  width: 18px;
+  height: 2px;
+  background: #9E00FF;
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 8px;
+}
+.faq-dropdown__button-icon::before {
+  content: "";
+  width: 2px;
+  height: 18px;
+  background: #9E00FF;
+  display: block;
+  position: absolute;
+  right: 8px;
+  top: 0;
 }
 .faq-dropdown__text {
+  display: none;
+  position: absolute;
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
   color: #200F3F;
   background: #FFFFFF;
   padding: 16px 16px 32px 16px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0px 4px 10px rgba(43, 17, 133, 0.1);
+}
+
+.faq-dropdown__text-visible {
+  display: block;
 }
