@@ -1,0 +1,99 @@
+@import "_nullstyle";
+/*Обнуляющий стиль убрали в другой файл и подключилиего с помощю этой сылки*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/*
+!-----------------history---------------------!
+*/
+.pages-way {
+  padding: 19.87px 0 19.87px 0;
+  display: flex;
+
+  &__1 {
+    margin-right: 4px;
+
+    & a {
+      font-family: 'Roboto';
+      font-weight: 400;
+      font-size: 14px;
+      align-items: center;
+      color: #200F3F;
+    }
+
+    & img {
+      margin-right: 3.31px;
+    }
+  }
+
+  &__2 {
+    & a {
+      font-family: 'Roboto';
+      font-weight: 400;
+      font-size: 14px;
+      color: #7E7099;
+
+      &::before {
+        content: '';
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+        background-color: #5531D2;
+        align-items: center;
+        border-radius: 50%;
+        margin-right: 4px;
+        position: relative;
+        top: -2px;
+        z-index: -1;
+      }
+    }
+  }
+}
+
+.pages-way__2-2 {
+  display: none;
+}
+
+@media (max-width: 348px) {
+  .pages-way__2-2 {
+    display: inline-block;
+  }
+
+  .pages-way__2-1 {
+    display: none;
+  }
+}
+
+.main-content {}
+
+.m-content__title {
+  margin-top: 60px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 130%;
+  text-align: center;
+  color: #200F3F;
+}
+
+.m-history {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+
+  &__block {
+    background-color: #ffffff;
+
+  }
+
+  &__block-title {
+    background-image: url(img/history-bg.svg) no-repeat;
+  }
+
+  &__block-main {}
+
+  &__block-text {}
+
+  &__block-date {}
+}

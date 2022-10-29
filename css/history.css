@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+/*Обнуляющий стиль убрали в другой файл и подключилиего с помощю этой сылки*/
+/*
+!-----------------history---------------------!
+*/
+.pages-way {
+  padding: 19.87px 0 19.87px 0;
+  display: flex;
+}
+.pages-way__1 {
+  margin-right: 4px;
+}
+.pages-way__1 a {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+  color: #200F3F;
+}
+.pages-way__1 img {
+  margin-right: 3.31px;
+}
+.pages-way__2 a {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  color: #7E7099;
+}
+.pages-way__2 a::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  background-color: #5531D2;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 4px;
+  position: relative;
+  top: -2px;
+  z-index: -1;
+}
+
+.pages-way__2-2 {
+  display: none;
+}
+
+@media (max-width: 348px) {
+  .pages-way__2-2 {
+    display: inline-block;
+  }
+  .pages-way__2-1 {
+    display: none;
+  }
+}
+.m-content__title {
+  margin-top: 60px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 130%;
+  text-align: center;
+  color: #200F3F;
+}
+
+.m-history {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+.m-history__block {
+  background-color: #ffffff;
+}
+.m-history__block-title {
+  background-image: url(img/history-bg.svg) no-repeat;
+}
