@@ -1,0 +1,202 @@
+@import "_nullstyle";
+/*Обнуляющий стиль убрали в другой файл и подключилиего с помощю этой сылки*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/*
+!-----------------404---------------------!
+*/
+.main {
+
+  &__body {}
+
+  &__container {}
+}
+
+.u-container {}
+
+.four-error__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 125.25px;
+  position: relative;
+}
+
+
+.four-block {
+
+  &__left {
+    flex: 0 1 50%;
+    margin-top: 47.75px;
+    padding-right: 12px;
+  }
+
+  &__left-error-numb {
+    font-weight: 700;
+    font-size: 124px;
+    line-height: 100%;
+    text-align: left;
+    color: #000000;
+  }
+
+  &__left-error-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #494949;
+    margin-top: 32px;
+  }
+
+  &__left-home-search {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+  }
+
+  &__left-home {
+    position: relative;
+
+    & a {
+      display: flex;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      color: #200F3F;
+      padding: 15.5px 40px 14px 61px;
+      border: 1px solid #200F3F;
+      border-radius: 10px;
+    }
+
+    & img {
+      position: absolute;
+      top: 24px;
+      left: 42px;
+    }
+  }
+
+  &__right {}
+}
+
+.four-content {
+
+  &__blocks {
+    margin: 30px 0 8px 0;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 32px;
+    position: relative;
+    z-index: 11;
+  }
+
+  &__block {
+    overflow: hidden;
+    border-radius: 20px;
+    background: #ffffff;
+    margin: 20px 0 17px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover{
+      margin: 0px;
+    }
+    &:hover>.four-content-block__bottom a{
+      color: #FFFFFF;
+      background: #5531D2;
+    }
+  }
+}
+
+.four-content-block {
+
+
+  &__img {}
+
+  &__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background: url('/img/404-contetnt-bg.png');
+    padding: 16px 24px 33px 24px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    padding: 16px 24px 0px 24px;
+  }
+
+  &__bottom {
+    margin: 12px 24px 24px 24px;
+
+    & a {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      border: 1px solid;
+      justify-content: center;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      color: #5531D2;
+      padding: 16px 0px 14px 0px;
+      border-radius: 10px;
+      transition: 0.5s;
+    }
+  }
+}
+
+.blue-numb {
+  color: #9E00FF;
+}
+
+.four {
+
+  &__arrow {}
+}
+
+.four-form {
+
+  &__form-search {
+    display: flex;
+    width: 319px;
+    height: 57px;
+    justify-content: space-between;
+  }
+
+  &__search-txt {
+    width: 287px;
+    border-radius: 10px 0 0 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #200F3F;
+    padding-left: 9px;
+    padding-right: 10px;
+  }
+
+  &__search-btn {
+    background-color: #FFFFFF;
+    padding-right: 15px;
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+.four-content {
+
+  &__container {
+    margin-top: 100px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 130%;
+    color: #000000;
+  }
+
+  &__blocks {}
+
+  &__block {}
+}
